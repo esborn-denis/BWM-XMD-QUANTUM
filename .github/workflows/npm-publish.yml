@@ -1,0 +1,77 @@
+# This#═══════[ CORE CONFIG ]═══════✧#
+SESSION_ID='BWM-XMD;;;H4sIAAAAAAAAA61VW4+iSBj9K5t61Sz3m8kky9UL2oKArW72oYRCS7lZFChO+r9vsLt3O5nZmd5keIKi+L5zTp3z8RUUJa6Rizow+goqgltIUX9LuwqBETCaNEUEDEECKQQjUHobOOPa5873TnFxNNy7q47Z1aDl1qZ09N2M2Xv7q+Lu+OkX8DIEVbPPcPyDgjbSuaPcHOQ8zW9T6wllMcPsQ8mJo+eFZFB3gBgkLjtn1RfsK0JMcHGwqyPKEYGZizoPYvI5+PGybdq1f54tPU+1p0Yt5pE/dwXER8Z8s+4maluMu41Dx/bn4M+UqVLPb3dje5lbTCXqeZGdg/Iu3W/euaxTD5EIhUgWz9Er/BofCpRME1RQTLtP635wCYy3O+aEdVdzY9ka3HyJZoNnRzjbZHbJmY3sbpyrfv4kcNcJszUUmGAa2u0sW11iKvrVluwQ490mDn9S9/rydiT6WvwI3CPvXjn/H93zuVHj83Ffin4VPWnbermbnPWFUi30eWPvN+tyzVwuSsk/ZPoEfJEbq1QNjsbVZ5ZNfULuNG6SPbNay5YxqfmxuZikBDbR6QN8SBvyI5TeoKb3GxkEyxvTOGrZeo58vw6eFoM72+XaYRyIh6BsO2vl7sOtwUiVUMam31qVq1yRFtxtJ2AmZRnwmwW9yETkVc/QvzwYnVE3TcCIexkCgg64pgRSXBaPNVUaApi0AYoJog95gW1eRN8939KBqYTd8plM2XUImTQwzj67TKNJsoPyxg9zQfwChqAiZYzqGiUTXNOSdAtU1/CAajD683FSPWmC8pKiGU7ACPCSqIiszMq8JP9R/349QlrDqvq9QBQMQUrKfIHAiJIGDcHjA0EyZVESLMUyWd7ROJbVBI6TDVF3DEuzuJ5i/to0xDmqKcwrMOIUUWV5npOVl+GvwcErOmvriimoIqexvKTYOqc6jiBbrMlzhvYTHOqvwmHrkuMYjixosqoJis7znKarBieKlmjLsvITHNrLX0NQoBt9zVPvAoEbghSTmkZFU2UlTN7D9v4SxnHZFDToitjsbxABow/LiFJcHOqeWVNAEh9xi8yeBxilMKvRP8ZDBCXvXN6GqVkmfR52nDo2xEkIeux9oW+0GXHit/Jkj22cIokaL4qKzEuCqPQ7+xdDUMC+GAhLSvFv20WvzBvmvkWCKMRZDUbAnM41wbr6p2VqXv3tVg903dX13t7vHN8z/JqRcUtCLz3Wmm3c43GxjZQzmqLIlsbu9VlrqrRNZ/7FXRn48L0iYASCqRQcTpPxdRH5nnaqmXWihkdxr0vVVoonThZbC+cmVBVWAxUJZZmaJjSK50F8OO2IIjG1dlvPVJX67lzx8ECi17Vx/dJ3S1CLY/Sx2Yp1BNdTBvZJhkU+L8ZbmZazKme6QQC3XuhVRahenvAcRfudUh7zy5PSGPpinsqqi+RrUOW2jPV7nVabyiKWtWpu5uF1ujymW/b2V8FvucePxxSjx5B+O4afnuYr8N507MvwQ423sf8fo9NYEZm9C+LeW+mxYFS8s5QmeJIZyxWunXZ/2ShCF7n47G9L8NK7v8ogTUuSgxGARULKh1dI2fQunhZp+YNmph5N7TfmGayp/m8yvhc24XWXR8pqAutjL8JaUS5Rb/NOr6qAQvoeNKD3l5Vn4OVvHhM/uRsJAAA='
+PREFIX="."
+PUBLIC_MODE='yes'
+
+#═══════[ OWNER DETAILS ]═══════✧#
+OWNER_NAME="᚛Ibrahim adams᚜"
+OWNER_NUMBER=""
+
+#═══════[ BOT PROFILE ]═══════✧#
+BOT_NAME="BWM-XMD"
+BOT_IMAGE=""
+STARTING_BOT_MESSAGE='yes'
+
+#═══════[ PRESENCE & AUTOMATION ]═══════✧#
+PRESENCE=''
+AUTO_READ="no"
+AUTO_READ_STATUS="yes"
+AUTO_DOWNLOAD_STATUS="no"
+
+#═══════[ CHAT FEATURES ]═══════✧#
+CHATBOT="no"
+AUDIO_CHATBOT="no"
+
+#═══════[ GROUP SECURITY ]═══════✧#
+GROUPANTILINK_REMOVE="yes"
+ANTIDELETE_SENT_INBOX="yes"
+ANTIDELETE_RECOVER_CONVENTION="no"
+
+#═══════[ MESSAGE HANDLING ]═══════✧#
+STATUS_REACT_EMOJIS="🚀,🌎,🌹,😂,💀,💚,🥳,🕶️,💙"
+AUTO_REACT="no"
+WELCOME_MESSAGE="no"
+GOODBYE_MESSAGE="no"
+
+#═══════[ HEROKU CONFIG ]═══════✧#
+HEROKU_APP_NAME=
+HEROKU_API_KEY=
+
+#═══════[ AUTO REACTIONS ]═══════✧#
+AUTO_REACT_STATUS="yes"
+AUTO_REPLY_STATUS="no"
+AUTO_REJECT_CALL="no"
+AUTO_BIO="yes"
+#════════════════════════════✧# workflow will run tests using node and then publish a package to GitHub Packages when a release is created
+# For more information see: https://docs.github.com/en/actions/publishing-packages/publishing-nodejs-packages
+
+name: Node.js Package
+
+on:
+  release:
+    types: [created]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+      - run: npm ci
+      - run: npm test
+
+  publish-npm:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          registry-url: https://registry.npmjs.org/
+      - run: npm ci
+      - run: npm publish
+        env:
+          NODE_AUTH_TOKEN: ${{secrets.npm_token}}
